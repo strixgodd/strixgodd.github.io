@@ -18,10 +18,10 @@
     --testimonial-color:white;
     --input-clr:black;
     
-    --main-bg:url(/Practice2\(Replicate_wix_website\)/IMAGES/main_background.jpg)no-repeat center center/cover;
+    --main-bg:url(IMAGES/main_background.jpg)no-repeat center center/cover;
     --testimonial-bg-color:#9e3ffd;
     --clients-bg:white;
-    --contact-bg: url(/Practice2\(Replicate_wix_website\)/IMAGES/contact.jpg)no-repeat center center/cover;
+    --contact-bg: url(IMAGES/contact.jpg)no-repeat center center/cover;
 }
 .dark-mode{
     --primary-color:green;
@@ -35,7 +35,7 @@
     --testimonial-color:green;
     --input-clr:green;
 
-    --main-bg:url(/Practice2\(Replicate_wix_website\)/IMAGES/main-dark-background.jpg)no-repeat center center/cover;
+    --main-bg:url(IMAGES/main-dark-background.jpg)no-repeat center center/cover;
     --testimonial-bg-color:linear-gradient(to top,black,rgba(22, 99, 22, 0.514));
     --clients-bg:linear-gradient(to bottom, black, rgba(22, 99, 22, 0.514));
     --contact-bg:linear-gradient(to top,black,rgba(22, 99, 22, 0.514));
@@ -188,7 +188,7 @@ ul a:hover{
 
 main{
     text-align: center;
-    background: url(/Practice2\(Replicate_wix_website\)/IMAGES/main_background.jpg)no-repeat center center/cover;
+    background: url(IMAGES/main_background.jpg)no-repeat center center/cover;
     background: var(--main-bg);
     height: 70vh;
     padding: 4rem 2rem 4rem 2rem;
