@@ -58,14 +58,14 @@ const container_img=document.querySelector('.container-about').querySelector('im
 function enable_dark_mode(){
     document.body.classList.add('dark-mode')
     localStorage.setItem('DarkMode','enabled');
-    container_img.src="/Practice2(Replicate_wix_website)/IMAGES/about-me-dark-bg.jpg"
+    container_img.src="IMAGES/about-me-dark-bg.jpg"
 }
 
 function disable_dark_mode(){
     document.body.classList.remove('dark-mode')
     localStorage.setItem('DarkMode','disabled');
     
-    container_img.src="/Practice2(Replicate_wix_website)/IMAGES/about.jpg"
+    container_img.src="IMAGES/about.jpg"
 }
 
 if(DarkMode=='enabled'){
