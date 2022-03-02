@@ -4,186 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Replicate wix website</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="normalize.css">
     <script src="https://kit.fontawesome.com/8fa3e9a2a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <!-- NAVBAR  -->
     <header>
-        <div class="container-header">
-            <div class="word-header">
-                <div class="site-title">
-                    <!-- <p class="dark-bright"></p> -->
-                    <i class="fas fa-arrow-right"></i>
-                    <i class="fas fa-adjust"></i>
-                    <a href="#Home"><i class="fas fa-chevron-circle-up fa-2x up-btn"></i></a>
-                    <h1>BIzBud</h1>
-                </div>
-                <ul class="potrait">
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Testimonials">Testimonials</a></li>
-                    <li><a href="#Clients">Clients</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-                <div class="call">
-                    <button>
-                        Call now
-                    </button>
-                </div>
-            </div>
-            <nav>
-                <div class="toggle-button">
-                    <i class="fas fa-bars fa-2x"></i>
-                </div>
-                <ul class="landscape">
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Testimonials">Testimonials</a></li>
-                    <li><a href="#Clients">Clients</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <button class="toggle-button">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+            <ul class="main">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Languages</a></li>
+            </ul>
+            <ul class="side">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Languages</a></li>
+            </ul>
+            
+        </nav>
     </header>
-    <main id="Home">
-        <h1>The Power</h1>
-        <h1>Of Good advice</h1>
-        <div>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit.</p>
+    <!-- /NAVBAR  -->          
+    <!-- Home  -->
+    <section class="home fade" id="home">
+        <div class="logo">
+            <i class="fa-solid fa-down-long "></i>
+            <i class="fa-solid fa-circle-half-stroke "></i>
         </div>
-        <div>
-            <button>Learn more</button>
+        <a href="#home"><i class="fa-solid fa-circle-chevron-up fa-2x "></i></a>
+        <h1>Hi,I am 
+            <strong>
+<pre>Soumojit
+Baidya 
+</pre>
+            </strong>
+        </h1>
+        <p>Front-end dev</p>
+        <img src="Assets/Pic 1.jpeg" alt="">
+    </section>
+    <!-- /Home  -->
+    <!-- SERVICES  -->
+    <section class="services" id="services">
+        <h2>What I do</h2>
+        <div class="services-container">
+            <div class="col col1 slide-in from-left">
+                <h3>FIGMA to HTML.</h3>
+                <p>Conversion of figma to html using custom html ,css and javascript.(CSS frameworks like bootstrap , tailwind can also be used if the clients wants me to use those instead of custom css)</p>
+            </div>
+            <div class="col col2 fade">
+                <h3>Front End Developer</h3>
+                <p>Building a functional an beautiful front end with the help of custom html , css and javascript with special features like fully responsive website, stylish navbar, dark mode toggle , lazy loading images and many more!</p>
+            </div>
+            <div class="col col3 slide-in from-right">
+                <h3>PSD to HTML .</h3>
+                <p>Conversion of psd to html using custom html,css and javascript.(CSS frameworks like bootstrap , tailwind can also be used if the clients wants me to use those instead of custom css)</p>
+            </div>
         </div>
-    </main>
-    <div class="services" id="Services">
-        <div class="headings">
-            <p>SERVICES</p>
-            <P>Taking your Bussiness to</P>
-            <p>the Next Level</p>
-        </div>
-        <div class="container-services">
+        <button class="services-btn btn">
+                A dummy button
+        </button>
+    </section>
+    <!-- /SERVICES  -->
+    <!-- ABOUT  -->
+    <section class="about" id="about">
+        <h2>Who I am</h2>
+        <p>My passion</p>
+        <div class="about-container slide-in from-left">
             <div class="col col1">
-                <div class="circle"></div>
-                <h4>Business Plans</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, vel?</p>
+                <p>I am an undergraduate student currently pursuing Btech in CSE in India. I am passionate about web development and i love html,css and javascript.I want to apply my knowledge in freelancing because complete knowledge can only be gained in something when it's applied in real life.</p>
             </div>
             <div class="col col2">
-                <div class="tick"></div>
-                <h4>Accounting Services</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, vel?</p>
-            </div>
-            <div class="col col3">
-                <div class="square"></div>
-                <h4>Finance Optimizationn</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, vel?</p>
+                <p>Recently learned python and currently learning django framework to understand how the backend of the internet works. </p>
             </div>
         </div>
-    </div>
-    <div class="about" id="About">
-        <div class="container-about">
-            <div class="col col1">
-                <h4>ABOUT</h4>
-                <p>Our Experts Are</p>
-                <p>the Finest</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui tempora officiis incidunt aliquam dolorum, blanditiis ipsum culpa? Hic, repudiandae eum nam minus aliquam tempora cum on me, animi dolores maxime laboriosam itaque perspiciatis illo quis asperiores molestias ipsum corrupti ex praesentium! Accusantium.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui tempora officiis incidunt aliquam dolorum, blanditiis ipsum culpa? Hic, repudiandae eum nam minus aliquam tempora cum, animi dolores maxime laboriosam itaque perspiciatis illo quis asperiores molestias ipsum corrupti ex praesentium! Accusantium.</p>
-            </div>
-            <div class="col col2">
-                <img src="IMAGES/about.jpg" alt="">
-                <!-- <img src="/Practice2(Replicate_wix_website)/IMAGES/about-me-dark-bg.jpg" alt=""> -->
-            </div>
+        <div class="img-wrapper">
+            <div class="content fade-img">Hi 😉</div>
+            <img src="Assets/Pic 2.jpeg" class="slide-in from-right zoom blur" alt="">
         </div>
-    </div>
-    <div class="testimonial" id="Testimonials">
-        <h4>TESTIMONIALS</h4>
-        <div class="testimonial-container">
-            <pre id="pre1">
-            Lorem ipsum dolor sit.0
-            Lorem ipsum dolor sit.0
-            </pre>
-            <pre id="pre2">
-            Lorem, ipsum.0
-            Lorem, ipsum.0
-            </pre>
-            <!-- <div class="buttons">
-                <span class="prev-btn">
-                    <i class="fas fa-less-than"></i>
-                </span>
-                <span class="next-btn">
-                    <i class="fas fa-greater-than"></i>
-                </span>
-            </div> -->
-            <div class="dots">
-                <p></p>
-                <p></p>
-                <p></p>
+    </section>
+    <!-- /ABOUT  -->
+    <!-- WORK  -->
+    <section class="work" id="work">
+        <h2>Programming Languages I Know</h2>
+        <div class="work-img-container">
+            <div class="img-item">
+                <img src="Assets/java1.jpg" alt="">
             </div>
-        </div>
-    </div>
-    <div class="clients" id="Clients">
-        <h3>OUR HAPPY CLIENTS</h3>
-        <div class="container-clients">
-            <img src="IMAGES/clients.jpg" alt="">
-            <img src="IMAGES/clients.jpg" alt="">
-            <img src="IMAGES/clients.jpg" alt="">
-            <img src="IMAGES/clients.jpg" alt="">
-            <img src="IMAGES/clients.jpg" alt="">
-        </div>
-    </div>
-    <div class="contact" id="Contact">
-        <div class="container-contact">
-            <div class="col col1">
-                <h4>CONTACT</h4>
-                <h2>Let's Work Together</h2>
-                <div class="para">
-                    <p>Lorem ipsum dolor sit.</p>
-                    <p>Lorem ipsum dolor sit.</p>
-                    <p>Lorem ipsum dolor sit.</p>
-                    <p>Lorem ipsum dolor sit.</p>
-                </div>
-                <div class="icons">
-                    <a href="https://www.youtube.com" target="blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
-                    <a href="https://www.youtube.com" target="blank"><i class="fab fa-facebook-f fa-2x"></i></a>
-                    <a href="https://www.youtube.com" target="blank"><i class="fab fa-twitter fa-2x"></i></a>
-                </div>
+            <div class="img-item">
+                <img src="Assets/Pyrhon.webp" alt="">
             </div>
-            <div class="col col2">
-                    
-                <p>
-                    <label for="">
-                        FIRST NAME
-                    </label>
-                    <input type="text" name="" id="">
-                </p>
-                <p>
-                    <label for="">
-                        Last Name
-                    </label>
-                    <input type="text" name="" id="">
-                </p>
-                <p>
-                    <label for="">
-                        Email *
-                    </label>
-                    <input type="text" name="" id="" required>
-                </p>
-                <p>
-                    <label for="">
-                        Leave us a message...
-                    </label>
-                    <textarea name="" id="" cols="30" rows="2"></textarea>
-                </p>
-                <button class="contact-btn">
-                    submit
-                </button>
+            <div class="img-item">
+                <img src="Assets/CSS.png" alt="">
             </div>
+            <div class="img-item">
+                <img src="Assets/HTML.png" alt="">
+            </div>
+            <div class="img-item">
+                <img src="Assets/Javascript.png" alt="">
+            </div>
+            <div class="img-item">
+                <img src="Assets/c.png" alt="">
+            </div>
+            
         </div>
-    </div>
+    </section>
+    <!-- /WORK  -->
+    <!-- FOOTER  -->
+    <footer>
+            <a href="https://mail.google.com">lorem@dev</a>
+            <div class="icons">
+                <a href="https://github.com/strixgodd/strixgodd.github.io">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+                <!-- <i class="fa-brands fa-twitter fa-2x"></i>
+                <i class="fa-brands fa-youtube fa-2x"></i> -->
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+            </div>
+    </footer>
+        <!-- /FOOTER  -->
     <script src="index.js"></script>
 </body>
 </html>
-
