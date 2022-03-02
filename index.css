@@ -250,7 +250,7 @@ ul.side.shownav{
         position: relative;
     }
     .home img{
-        content: url("/Portfolio\ Website\(Official\)/Assets/Pic 1(modified).jpg");
+        content: url("Assets/Pic 1(modified).jpg");
         grid-area: img;
         z-index: 0;
     }
