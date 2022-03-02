@@ -267,6 +267,7 @@ ul.side.shownav{
         width: calc(100% + 12em);
     }
     .logo{
+        top: 1.45rem;
         left: 20.8rem;
     }
 }
