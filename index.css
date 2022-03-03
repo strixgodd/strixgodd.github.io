@@ -189,7 +189,7 @@ ul.side.shownav{
     transform: scaleX(1);
 }
 @media (min-width:700px){
-    .toggle-button,ul.side{
+    .toggle-button,ul.side,ul.side.shownav{
         display: none;
     }
     nav ul.main{
@@ -210,7 +210,7 @@ ul.side.shownav{
     margin-top: 2rem;
     position: relative;
 }
-.logo>*{
+/* .logo>*{
     display: block;
     text-align: center;
 }
@@ -218,9 +218,12 @@ ul.side.shownav{
     position: absolute;
     top: -1.14rem;
     left: 1.85rem;
-}
+} */
 .fa-circle-half-stroke{
     cursor: pointer;
+    position: absolute;
+    top: 2rem;
+    right: 0.9rem;
 }
 .home strong{
     display: block;
@@ -234,7 +237,7 @@ ul.side.shownav{
 .fa-circle-chevron-up{
     color: var(--black-to-blue);
     position: fixed;
-    top: 31rem;
+    bottom: 1rem;
     right: 2rem;
     z-index:1;
 }
@@ -266,10 +269,14 @@ ul.side.shownav{
         right: 0em;
         width: calc(100% + 12em);
     }
-    .logo{
+    .fa-circle-half-stroke{
+        top: 0px;
+        right: 0px;
+    }
+    /* .logo{
         top: 1.45rem;
         left: 20.8rem;
-    }
+    } */
 }
 /* /Home  */
 /* Services  */
