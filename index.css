@@ -453,10 +453,54 @@ footer{
 footer .icons{
     margin-top: 2em;
 }
+.icon-link{
+    display: inline-flex;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    z-index: 1;
+}
+.icon-link:hover{
+    color: white;
+}
+footer i{
+    margin: auto;
+}
+.icon-link::before{
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -4px;
+    right: 0;
+    bottom: 0;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: black;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform .3s;
+    z-index: -1;
+    margin: auto;
+}
+.icon-link:hover::before{
+    transform: scale(1);
+}
 footer .icons>*{
     color: var(--black-to-blue);
-    margin-inline: .3em;
+    margin-inline: .5em;
     cursor: pointer;
+}
+footer .icon-link:nth-child(1):hover::before{
+    background-color: purple;
+}
+footer .icon-link:nth-child(2):hover::before{
+    background-color: #00b6f1;
+}
+footer .icon-link:nth-child(3):hover::before{
+    background-color: red;
+}
+footer .icon-link:nth-child(4):hover::before{
+    background-color: #0077b5;
 }
 footer a{
     color: var(--black-to-blue);
